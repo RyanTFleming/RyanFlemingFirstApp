@@ -56,14 +56,14 @@ public class MainActivity extends AppCompatActivity {
     public void plusButtonOnClick(View view) {
         this.counter++;
         TextView myTextView = (TextView) findViewById(R.id.textView);
-        myTextView.setText(String.valueOf(counter));
+        myTextView.setText(String.valueOf(this.counter));
 
     }
 
     public void minusButtonOnClick(View view) {
         this.counter--;
         TextView myTextView = (TextView) findViewById(R.id.textView);
-        myTextView.setText(String.valueOf(counter));
+        myTextView.setText(String.valueOf(this.counter));
 
     }
 }
